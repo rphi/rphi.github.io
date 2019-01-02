@@ -1,0 +1,67 @@
+body {
+  background: black;
+  min-height: 100vh; }
+
+.header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/img/edi_castle.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.tape {
+  margin-top: 0;
+  background: whitesmoke;
+  padding: 1em;
+  box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.452); }
+
+.arrow {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: white;
+  font-size: 2.5rem; }
+
+.content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/img/stage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.end {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/img/stamps.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.pride-bar:after {
+  width: 100%;
+  height: 8px;
+  background-size: 100% 100%;
+  content: '';
+  display: block;
+  background-image: linear-gradient(left, #cf0f0f 0%, #cf0f0f 18%, #ffa000 18%, #ffa000 33%, #ffd200 33%, #ffd200 50%, #36a030 50%, #36a030 66%, #1b77cd 66%, #1b77cd 83%, #4d148c 83%, #4d148c 100%);
+  background-image: -o-linear-gradient(left, #cf0f0f 0%, #cf0f0f 18%, #ffa000 18%, #ffa000 33%, #ffd200 33%, #ffd200 50%, #36a030 50%, #36a030 66%, #1b77cd 66%, #1b77cd 83%, #4d148c 83%, #4d148c 100%);
+  background-image: -moz-linear-gradient(left, #cf0f0f 0%, #cf0f0f 18%, #ffa000 18%, #ffa000 33%, #ffd200 33%, #ffd200 50%, #36a030 50%, #36a030 66%, #1b77cd 66%, #1b77cd 83%, #4d148c 83%, #4d148c 100%);
+  background-image: -webkit-linear-gradient(left, #cf0f0f 0%, #cf0f0f 18%, #ffa000 18%, #ffa000 33%, #ffd200 33%, #ffd200 50%, #36a030 50%, #36a030 66%, #1b77cd 66%, #1b77cd 83%, #4d148c 83%, #4d148c 100%);
+  background-image: -ms-linear-gradient(left, #cf0f0f 0%, #cf0f0f 18%, #ffa000 18%, #ffa000 33%, #ffd200 33%, #ffd200 50%, #36a030 50%, #36a030 66%, #1b77cd 66%, #1b77cd 83%, #4d148c 83%, #4d148c 100%);
+  background-image: -webkit-gradient(linear, left bottom, right bottom, color-stop(0, #cf0f0f), color-stop(0.18, #cf0f0f), color-stop(0.18, #ffa000), color-stop(0.33, #ffa000), color-stop(0.33, #ffd200), color-stop(0.5, #ffd200), color-stop(0.5, #36a030), color-stop(0.66, #36a030), color-stop(0.66, #1b77cd), color-stop(0.83, #1b77cd), color-stop(0.83, #4d148c), color-stop(1, #4d148c)); }
+
+.places .row .col {
+  height: 100%; }
+
+.places .wherelogo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 3rem; }
