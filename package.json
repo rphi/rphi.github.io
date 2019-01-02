@@ -1,17 +1,18 @@
 {
-  "name": "gulp.sass",
+  "name": "rphi.uk",
   "version": "1.0.0",
-  "description": "Gulp & SASS",
+  "description": "Personal website for rphi",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "publish": "git subtree push --prefix app origin master"
+    "deploy": "git subtree push --prefix app origin master"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "rphi.uk",
+  "license": "UNLICENCED",
   "devDependencies": {
     "browser-sync": "^2.2.0",
     "gulp": "^3.8.11",
     "gulp-sass": "^2.2.0"
-  }
+  },
+  "private": true
 }
