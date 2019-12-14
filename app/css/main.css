@@ -6,20 +6,20 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url("/img/edi_castle.jpg");
+  background-image: url("/img/light_streaks.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed; }
+  .header .logo {
+    text-align: center; }
 
 .tape {
-  margin-top: 0;
   background: whitesmoke;
   padding: 1em;
   box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.452); }
 
 .arrow {
   text-align: center;
-  margin-bottom: 1rem;
   color: white;
   font-size: 2.5rem; }
 
