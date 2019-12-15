@@ -8,8 +8,7 @@ body {
   flex-direction: column;
   background-image: url("/img/light_streaks.jpg");
   background-position: center;
-  background-size: cover;
-  background-attachment: fixed; }
+  background-size: cover; }
   .header .logo {
     text-align: center; }
 
