@@ -8,24 +8,24 @@ var src = {
     css:  'app/css',
     html: 'app/*.html'
 };
-
+ 
+// Compile sass into CSS
+gulp.task('sass', gulp.series(function() {
+    return gulp.src(src.scss)
+        .pipe(sass())
+        .pipe(gulp.dest(src.css))
+        .pipe(reload({stream: true}));
+}));
+ 
 // Static Server + watching scss/html files
-gulp.task('serve', ['sass'], function() {
+gulp.task('serve', gulp.series('sass', function() {
 
     browserSync.init({
         server: "./app"
     });
 
-    gulp.watch(src.scss, ['sass']);
+    gulp.watch(src.scss, gulp.series('sass'));
     gulp.watch(src.html).on('change', reload);
-});
+}));
 
-// Compile sass into CSS
-gulp.task('sass', function() {
-    return gulp.src(src.scss)
-        .pipe(sass())
-        .pipe(gulp.dest(src.css))
-        .pipe(reload({stream: true}));
-});
-
-gulp.task('default', ['serve']);
+gulp.task('default', gulp.series('serve'));
