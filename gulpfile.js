@@ -4,9 +4,9 @@ var sass        = require('gulp-sass');
 var reload      = browserSync.reload;
 
 var src = {
-    scss: 'app/scss/*.scss',
-    css:  'app/css',
-    html: 'app/*.html'
+    scss: 'docs/scss/*.scss',
+    css:  'docs/css',
+    html: 'docs/*.html'
 };
  
 // Compile sass into CSS
@@ -21,7 +21,7 @@ gulp.task('sass', gulp.series(function() {
 gulp.task('serve', gulp.series('sass', function() {
 
     browserSync.init({
-        server: "./app"
+        server: "./docs"
     });
 
     gulp.watch(src.scss, gulp.series('sass'));
