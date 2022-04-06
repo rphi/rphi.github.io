@@ -1,0 +1,24 @@
+{{- define "main" }}
+<div class="win-container" style="align-items: center">
+    <div class="win-window" style="width: 60vw; margin-left: auto; margin-right: auto; border-radius: 5px; border-color: white; border: 2px solid; display: flex; flex-direction: column; background-color: rgba(210, 210, 210, 0.4);">
+        <div class="win-heading" style="width: 100%; height: 20px; background-color: grey;">
+            <div style="float: right; font-size: 10px; margin-right: 5px">
+                <span style="color: green;">⬤</span>
+                <span style="color: orange;">⬤</span>
+                <span style="color: red;">⬤</span>
+            </div>
+        </div>
+        <div class="win-body" style="color: black; flex-grow: 1; display: flex; padding: 15px 15px 15px 15px;">
+            <div style="margin-right: 15px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 24 24" fill="none" stroke="#c76d1a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-triangle"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            </div>
+            <div>
+                <h3 style="color: black;">404 not found.</h3>
+                <p style="font-size: medium;">Seems you've gone off-piste.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="not-found">404</div> -->
+{{- end }}{{/* end main */ -}}
