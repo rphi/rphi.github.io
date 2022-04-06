@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>_rphi</title>
+    <link>https://rphi.uk/</link>
+    <description>Recent content on _rphi</description>
+    <image>
+      <url>https://rphi.uk/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://rphi.uk/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 17 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://rphi.uk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Horo - multi-platform scheduled task orchestration</title>
+      <link>https://rphi.uk/posts/horo/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/horo/</guid>
+      <description>This is my latest project which is being developed to solve the problem of managing periodically executing tasks across disparate operating systems and with easily maintainable infrastructure in code.
+It&amp;rsquo;s still in its very early stages, but the rough plan is as follows:
+  The Calibre component will act as the main interface with the platform. This is a Django application which will read config files and generate a database of jobs.</description>
+    </item>
+    
+    <item>
+      <title>IntelTools - cyber reconissance toolkit</title>
+      <link>https://rphi.uk/posts/inteltools/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/inteltools/</guid>
+      <description>IntelTools was developed as a toolkit to pull together data useful in research for emerging cyber threats from multiple sources. Features were implemented based off of requests and feedback from user testing by Security Analysts.
+Features included:
+ Fully containerised deployments Caching of data to minimise repeated requests Tracking of data changes for an endpoint Logging of search queries for audit and to identify endpoints multiple analysts are working on Lazy/asynchronous loading of each &amp;ldquo;panel&amp;rdquo; of data Fully responsive Bootstrap UI PasteBin clone  </description>
+    </item>
+    
+    <item>
+      <title>CoStor - peer-to-peer distributed backup</title>
+      <link>https://rphi.uk/posts/costor/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/costor/</guid>
+      <description>CoStor was my dissertation honours project as part of my Computer Science degree course at the University of Edinburgh.
+The concept behind the application was to allow a small number of organisations (in the initial usecase, a confederation of schools) to pool storage on commodity systems to build a fault-tolerant, geo-distributed backup solution by distributing backup data across appliances located inside different organisation datacenters. Backups were to be file-level and make use of delta syncs, and the system was designed to be resilient and able to operate over conventional, low-grade WAN links using HTTPS to simplify deployment.</description>
+    </item>
+    
+    <item>
+      <title>Cores - lab inventory and scheduling</title>
+      <link>https://rphi.uk/posts/cores/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/cores/</guid>
+      <description>This project was written as part of my internship with OneIlluminate, to replace and improve on a legacy in-house tool and has the following features:
+ Inventory of all &amp;ldquo;lab&amp;rdquo; machines Management of &amp;ldquo;bookings&amp;rdquo; and &amp;ldquo;reservations&amp;rdquo; for systems, including with group based restrictions Detailed reporting on utilisation Full REST-ful API access to data in the system Automatic synchronisation of system details to the database:  Hardware configuration Installed PCIe cards (and serial numbers) Software versions   MOTD updates on systems to detail current status Warnings for devices that hadn&amp;rsquo;t been included in the inventory, and for address/location changes Hardware loan tracking  The project was written using Django and Python, and deployed using Docker.</description>
+    </item>
+    
+    <item>
+      <title>DemocrApp - the Democracy App</title>
+      <link>https://rphi.uk/posts/democrapp/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/democrapp/</guid>
+      <description>The Democracy App was written as a bespoke tool to handle voting in AGMs for a student theatre society alongside a friend of mine, @saty9. We were using a combination of Yes/No/Abstain voting and the far more complex to calculate Scottish Single Transferrable Vote system.
+Previously, ballots were handled on paper cards which had to be returned and loaded into OpenSTV manually before a result was calculated. This caused meetings to sometimes extend beyond 5 hours when there were several show slots to be voted on.</description>
+    </item>
+    
+    <item>
+      <title>WingMan - hardware control surface for ETC Eos</title>
+      <link>https://rphi.uk/posts/wingman/</link>
+      <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/wingman/</guid>
+      <description>WingMan was designed to work using an Arduino and C#.NET companion app to translate the state of physical buttons and faders into OSC (Open Sound Control) format commands which can be fed into applications such as ETC&amp;rsquo;s Eos lighting control system.
+This was developed as an alternative to the (very expensive) hardware control &amp;ldquo;wings&amp;rdquo; provided by first-parties such as ETC to improve the programming experience when using ETC&amp;rsquo;s Nomad PC based control software.</description>
+    </item>
+    
+    <item>
+      <title>about me</title>
+      <link>https://rphi.uk/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/about/</guid>
+      <description>I&amp;rsquo;m a generalist engineer with experience working in environments from fast-paced web development houses, security operations centers, telecoms OEMs, customer facing support, k12 education and behind the scenes project planning in both private and public sector roles.
+I&amp;rsquo;ve a passion for finding solutions for problems in the most efficient way, making use of open source and existing tools alongside carefully designed bespoke &amp;ldquo;glue&amp;rdquo; to integrate novel data manipulation and grooming pipelines with business critical applications.</description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>https://rphi.uk/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/contact/</guid>
+      <description>This form is powered by TypeForm. Information submitted here will be processed by them according to their terms.</description>
+    </item>
+    
+    
+  </channel>
+</rss>
