@@ -23,17 +23,6 @@ It&amp;rsquo;s still in its very early stages, but the rough plan is as follows:
     </item>
     
     <item>
-      <title>IntelTools - cyber reconissance toolkit</title>
-      <link>https://rphi.uk/posts/inteltools/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://rphi.uk/posts/inteltools/</guid>
-      <description>IntelTools was developed as a toolkit to pull together data useful in research for emerging cyber threats from multiple sources. Features were implemented based off of requests and feedback from user testing by Security Analysts.
-Features included:
- Fully containerised deployments Caching of data to minimise repeated requests Tracking of data changes for an endpoint Logging of search queries for audit and to identify endpoints multiple analysts are working on Lazy/asynchronous loading of each &amp;ldquo;panel&amp;rdquo; of data Fully responsive Bootstrap UI PasteBin clone  </description>
-    </item>
-    
-    <item>
       <title>CoStor - peer-to-peer distributed backup</title>
       <link>https://rphi.uk/posts/costor/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
@@ -41,6 +30,27 @@ Features included:
       <guid>https://rphi.uk/posts/costor/</guid>
       <description>CoStor was my dissertation honours project as part of my Computer Science degree course at the University of Edinburgh.
 The concept behind the application was to allow a small number of organisations (in the initial usecase, a confederation of schools) to pool storage on commodity systems to build a fault-tolerant, geo-distributed backup solution by distributing backup data across appliances located inside different organisation datacenters. Backups were to be file-level and make use of delta syncs, and the system was designed to be resilient and able to operate over conventional, low-grade WAN links using HTTPS to simplify deployment.</description>
+    </item>
+    
+    <item>
+      <title>AirSense - personal air quality monitor</title>
+      <link>https://rphi.uk/posts/airsense/</link>
+      <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/airsense/</guid>
+      <description>Another joint university project, AirSense was a hardware and software solution built as part of my coursework for the Internet of Things, Security and Cloud course at the University of Edinburgh.
+AirSense is an IoT solution to allow individuals to track their own ex- posure to air pollution, and enable them to make informed changes to improve their personal health.
+The system makes use of a Bluetooth Classic (2.1) sensor pack, that can be attached to a bag, which periodically reads air quality data using a variety of sensors.</description>
+    </item>
+    
+    <item>
+      <title>BLE Step Counter</title>
+      <link>https://rphi.uk/posts/ble-step-counter/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/ble-step-counter/</guid>
+      <description>This was a coursework project as part of my Principles and Design of IoT course at the University of Edinburgh.
+The project involved working with data from both a Bluetooth Low Energy device which was capable of streaming sensor data to a mobile device, identifying the best way to process this data through use of tools such as Numpy and Jupyter notebook, implementing a counter algorithm and then porting this to an embedded hardware platform (NRF52) and creating a companion Android app to read the data out of the device.</description>
     </item>
     
     <item>
@@ -54,6 +64,26 @@ The concept behind the application was to allow a small number of organisations 
     </item>
     
     <item>
+      <title>Coinz - location based mobile game</title>
+      <link>https://rphi.uk/posts/coinz/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/coinz/</guid>
+      <description>Coinz was written as a coursework project as part of the Informatics Large Practical course during my batchelor&amp;rsquo;s degree at the University of Edinburgh.
+I won&amp;rsquo;t deny this is a fairly rudimentary piece of software, but given it was my first real foray into Android development (and had to be rewritten from scratch half way through), it was a functional game will all the core features implemented by the time it was submitted.</description>
+    </item>
+    
+    <item>
+      <title>JobCam - hackathon machine vision project</title>
+      <link>https://rphi.uk/posts/jobcam/</link>
+      <pubDate>Sun, 21 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/jobcam/</guid>
+      <description>JobCam was developed as a &amp;ldquo;fun&amp;rdquo; new way to find jobs in your area. It allows you to target your phone at an object, and then through the infojobs API we can find a closely matching job, that will be overlayed. The app processed data in real time allowing the user to move the phone around the room to find interesting jobs that they had not considered.
+(yes, the use case is somewhat contrived - if I remember rightly there was a prize for &amp;ldquo;most innovative use of the InfoJobs API&amp;hellip;)</description>
+    </item>
+    
+    <item>
       <title>DemocrApp - the Democracy App</title>
       <link>https://rphi.uk/posts/democrapp/</link>
       <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
@@ -61,6 +91,17 @@ The concept behind the application was to allow a small number of organisations 
       <guid>https://rphi.uk/posts/democrapp/</guid>
       <description>The Democracy App was written as a bespoke tool to handle voting in AGMs for a student theatre society alongside a friend of mine, @saty9. We were using a combination of Yes/No/Abstain voting and the far more complex to calculate Scottish Single Transferrable Vote system.
 Previously, ballots were handled on paper cards which had to be returned and loaded into OpenSTV manually before a result was calculated. This caused meetings to sometimes extend beyond 5 hours when there were several show slots to be voted on.</description>
+    </item>
+    
+    <item>
+      <title>IntelTools - cyber reconissance toolkit</title>
+      <link>https://rphi.uk/posts/inteltools/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://rphi.uk/posts/inteltools/</guid>
+      <description>IntelTools was developed as a toolkit to pull together data useful in research for emerging cyber threats from multiple sources. Features were implemented based off of requests and feedback from user testing by Security Analysts.
+Features included:
+ Fully containerised deployments Caching of data to minimise repeated requests Tracking of data changes for an endpoint Logging of search queries for audit and to identify endpoints multiple analysts are working on Lazy/asynchronous loading of each &amp;ldquo;panel&amp;rdquo; of data Fully responsive Bootstrap UI PasteBin clone  </description>
     </item>
     
     <item>
