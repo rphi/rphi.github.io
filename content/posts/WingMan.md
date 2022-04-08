@@ -9,8 +9,8 @@ cover:
 ---
 
 WingMan was designed to work using an Arduino and C#.NET companion app to translate the state of physical buttons
-and faders into OSC (Open Sound Control) format commands which can be fed into applications such as ETC's Eos 
-lighting control system.
+and faders into [OSC (Open Sound Control)](https://opensoundcontrol.stanford.edu) format commands which can be 
+fed into applications such as [ETC's Eos lighting control system](https://www.etcconnect.com/Products/Consoles/Eos-Consoles/).
 
 This was developed as an alternative to the (very expensive) hardware control "wings" provided by first-parties
 such as ETC to improve the programming experience when using ETC's Nomad PC based control software.
