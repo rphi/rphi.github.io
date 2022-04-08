@@ -13,7 +13,7 @@ Another joint university project, AirSense was a hardware and software solution 
 coursework for the [Internet of Things, Security and Cloud course](http://www.drps.ed.ac.uk/19-20/dpt/cxinfr11146.htm) 
 at the University of Edinburgh.
 
-AirSense is an IoT solution to allow individuals to track their own ex- posure to air pollution, and enable them 
+AirSense is an IoT solution to allow individuals to track their own exposure to air pollution, and enable them 
 to make informed changes to improve their personal health.
 
 The system makes use of a Bluetooth Classic (2.1) sensor pack, that can be attached to a bag, which periodically reads 
