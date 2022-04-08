@@ -29,7 +29,9 @@ DemocrApp was designed with the following goals:
 This was achieved by a Django and Celery app server communicating with a single page front-end app written with Vue.js, 
 and the application was in active use within the society for several years.
 
-Although development has stalled, the app has been taken closed source while I was working on pivoting to offering the 
-system as a SaaS multi-tenant application, with subscriptions and payments managed through Stripe.
+Although development has stalled, the app has been taken closed source while we were working on pivoting to offering the 
+system as a SaaS multi-tenant application, with subscriptions and payments managed through Stripe. This new version
+was deployed on fully containerised infrastructure using DigitalOcean's managed Kubernetes service with Helm and 
+used continuous integration through Argo CD and GitHub Pipelines.
 
 We have a "marketing" site which explains some of the features up at [democrapp.co.uk](https://democrapp.co.uk)
