@@ -1,6 +1,6 @@
 ---
 title: "Horo - multi-platform scheduled task orchestration"
-date: "2021-03-17"
+date: "2022-03-17"
 tags: [ "projects" ]
 ShowToc: false
 ShowBreadCrumbs: false
