@@ -53,4 +53,8 @@ _CentOS/Debian Linux • Python • Django • C# • Nginx • Kubernetes • T
     monitoring endpoints.
   - [Read more about Firefly →](https://fireflylearning.com)
 
+On top of my industry-specific experience, I've also worked in a number of live events environments, managing technical
+aspects of events from conferences and concerts through to experimental multi-media theatre productions and large-scale
+musicals. I've also extensive experience with broadcast AV through my work managing the technical refit of [freshair radio](https://freshair.radio) in 2020.
+
 For my full experience, please see my [LinkedIn](https://www.linkedin.com/in/rphi/details/experience/) profile.
