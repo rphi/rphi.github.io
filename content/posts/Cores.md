@@ -23,7 +23,8 @@ and has the following features:
  - Hardware loan tracking
 
 The project was written using Django and Python, and deployed using Docker. The sync agents were a combination of 
-Python scripts and Bash.
+Python scripts and Bash. The system was capable of continuous synchronisation with the old system to facilitate a 
+seamless cutover without loss of data or disruption to users.
 
 An early version of a subset of the source and documentation (MkDocs source) is available on my GitHub: 
 [Cores](https://github.com/rphi/cores)
